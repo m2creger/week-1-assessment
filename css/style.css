@@ -1,5 +1,6 @@
 body {
-	
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 footer {
 	height: 50px;
@@ -32,30 +33,43 @@ a {
     
     width: 100%;
     background-size: 454px 618px;
-    max-width: 318px;
+    max-width: 40%;
     float: left;
     position: relative;
     bottom: 150px;
 }
 .instagramInfo {
-	max-width: 318px;
+	max-width: 450px;
 	float: left;
 	padding-bottom: 100px;
 	position: relative;
-	
+	margin: auto;
 	bottom: 125px;
 
 }
+.logoArea {
+	max-width: 450px;
+	
+}
 .logo {
-	max-width: 318px;
-	justify-content: center;
-    margin-top: 12px;
-    
+	display: inline-block;
+	max-width: 314px;
+}
+.homeButton {
+	background-color: #58a5f0;
+	max-width: 100px;
+	max-height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	
 }
 .appleAppStore, .androidAppStore {
-	max-width: 159px;
+	max-width: 50%;
 	float: left;
 }
 .mainContent {
-	margin-bottom: 100px;
+
+}
+.instagramAbout {
+	background-color: white;
 }
