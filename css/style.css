@@ -45,7 +45,7 @@ p {
 .mainContent {
 	align-items: center;
 	display: flex;
-
+	justify-content: center;
 }
 
 .iphoneArea {
@@ -57,6 +57,7 @@ p {
     margin: 10px 10px 10px 10px;
     align-items: center;
 	display: flex;
+
 }
 
 .instagramInfo {
