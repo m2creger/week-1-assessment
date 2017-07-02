@@ -10,6 +10,8 @@ footer {
   	right: 0;
   	bottom: 0;
   	left: 0;
+  	padding-top: 25px;
+  	margin-top: 25px;
 }
 
 a {
@@ -19,6 +21,9 @@ a {
 	text-transform: capitalize;
 	margin: 10px;
 }
+p {
+	margin-left: 10px;
+}
 
 .mainPage {
 	background-color: #fff;
@@ -26,7 +31,10 @@ a {
 
 .topPart {
 	height: 200px;
-	background-color: #0277bd;
+	/*background-color: #0277bd; */
+	background: -webkit-linear-gradient(#0277bd, #58a5f0); 
+    background: -o-linear-gradient(#0277bd, #58a5f0); 
+    background: -moz-linear-gradient(#0277bd, #58a5f0);
 }
 
 .middlePart {
@@ -47,6 +55,8 @@ a {
     position: relative;
     bottom: 150px;
     margin: 10px 10px 10px 10px;
+    align-items: center;
+	display: flex;
 }
 
 .instagramInfo {
@@ -56,6 +66,8 @@ a {
 	position: relative;
 	margin: 10px;
 	bottom: 125px;
+	align-items: center;
+	display: flex;
 }
 
 .logoArea {
@@ -94,6 +106,6 @@ a {
 .instagramAbout {
 	background-color: white;
 }
-.motto, .instagramText {
+.motto {
 	margin: 10px;
 }
