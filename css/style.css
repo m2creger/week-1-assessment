@@ -2,9 +2,9 @@ body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+
 footer {
 	height: 50px;
-	text-decoration: none;
 	text-align: center;
 	position: absolute;
   	right: 0;
@@ -14,10 +14,16 @@ footer {
 
 a {
 	color: #0277bd;
+	text-decoration: none;
+	font-weight: 800;
+	text-transform: capitalize;
+	margin: 10px;
 }
+
 .mainPage {
 	background-color: #fff;
 }
+
 .topPart {
 	height: 200px;
 	background-color: #0277bd;
@@ -28,48 +34,66 @@ a {
 	float: left;
 }
 
+.mainContent {
+	align-items: center;
+	display: flex;
+
+}
+
 .iphoneArea {
-	justify-content: center;
-    
-    width: 100%;
     background-size: 454px 618px;
-    max-width: 40%;
+    max-width: 450px;
     float: left;
     position: relative;
     bottom: 150px;
+    margin: 10px 10px 10px 10px;
 }
+
 .instagramInfo {
 	max-width: 450px;
 	float: left;
 	padding-bottom: 100px;
 	position: relative;
-	margin: auto;
+	margin: 10px;
 	bottom: 125px;
-
 }
+
 .logoArea {
 	max-width: 450px;
 	
 }
+
 .logo {
 	display: inline-block;
 	max-width: 314px;
 }
+
 .homeButton {
 	background-color: #58a5f0;
-	max-width: 100px;
+	max-width: 150px;
 	max-height: 50px;
-	display: inline-block;
+	float: right;
 	vertical-align: middle;
-	
+	color: white;
+	font-weight: 800;
+	text-transform: capitalize;
+	margin: 5px;
+	align-items: center;
+	display: flex;
+	padding: 5px;
+	border-radius: 5px;
 }
+
+
 .appleAppStore, .androidAppStore {
 	max-width: 50%;
 	float: left;
+	margin: 10px;
 }
-.mainContent {
 
-}
 .instagramAbout {
 	background-color: white;
+}
+.motto, .instagramText {
+	margin: 10px;
 }
