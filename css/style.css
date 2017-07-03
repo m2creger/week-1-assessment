@@ -1,14 +1,29 @@
  @media screen and (min-width: 375px) and (max-width: 801px)  {
     .iphoneArea {
     	visibility: hidden;
+    	width: 0px;
     }
-    .instagramInfo {
-    	clear: both;
+    .logoArea {
+    	max-width: 250px;
     }
+    .appleAppStore, .androidAppStore {
+    	margin: 0px;
+    	max-width: 40%;
+    	clear: left;
+  
+    }
+
     body {
     	align-items: center;
 		display: flex;
 		justify-content: center;
+    }
+    .instagramInfo {
+    	max-width: 350px;
+    	clear: both;
+    }
+    .mainPage {
+    	max-width: max-content;
     }
     
 }
@@ -29,12 +44,13 @@ footer {
   	margin-top: 25px;
 }
 
-a {
+li {
 	color: #0d47a1;
 	text-decoration: none;
 	font-weight: 800;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	margin: 10px;
+	display: inline-block;
 }
 p {
 	margin-left: 10px;
@@ -136,4 +152,9 @@ p {
 }
 .motto {
 	margin: 10px;
+}
+/*Footer area*/
+.copyright {
+	color: gray;
+	font-weight: 700;
 }
