@@ -1,3 +1,18 @@
+ @media screen and (min-width: 375px) and (max-width: 801px)  {
+    .iphoneArea {
+    	visibility: hidden;
+    }
+    .instagramInfo {
+    	clear: both;
+    }
+    body {
+    	align-items: center;
+		display: flex;
+		justify-content: center;
+    }
+    
+}
+
 body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -15,7 +30,7 @@ footer {
 }
 
 a {
-	color: #0277bd;
+	color: #0d47a1;
 	text-decoration: none;
 	font-weight: 800;
 	text-transform: capitalize;
@@ -25,6 +40,8 @@ p {
 	margin-left: 10px;
 }
 
+/* Main Content */
+
 .mainPage {
 	background-color: #fff;
 }
@@ -32,9 +49,9 @@ p {
 .topPart {
 	height: 200px;
 	/*background-color: #0277bd; */
-	background: -webkit-linear-gradient(#0277bd, #58a5f0); 
-    background: -o-linear-gradient(#0277bd, #58a5f0); 
-    background: -moz-linear-gradient(#0277bd, #58a5f0);
+	background: -webkit-linear-gradient(#0d47a1, #58a5f0); 
+    background: -o-linear-gradient(#0d47a1, #58a5f0); 
+    background: -moz-linear-gradient(#0d47a1, #58a5f0);
 }
 
 .middlePart {
@@ -48,6 +65,8 @@ p {
 	justify-content: center;
 }
 
+/* iPhone image */
+
 .iphoneArea {
     background-size: 454px 618px;
     max-width: 450px;
@@ -57,8 +76,11 @@ p {
     margin: 10px 10px 10px 10px;
     align-items: center;
 	display: flex;
+	clear: left;
 
 }
+
+/* Instagram Logo, About, and App Store */
 
 .instagramInfo {
 	max-width: 450px;
@@ -69,7 +91,9 @@ p {
 	bottom: 125px;
 	align-items: center;
 	display: flex;
+	clear: right;
 }
+
 
 .logoArea {
 	max-width: 450px;
@@ -95,6 +119,9 @@ p {
 	display: flex;
 	padding: 5px;
 	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #0d47a1;
 }
 
 
